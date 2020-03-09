@@ -1,0 +1,252 @@
+body{
+    background-color: lightgray;
+}
+body, h1, h2, h3, h4, h5, h6,p {
+    font-family: "Century Gothic", sans-serif;
+    color:#414042;
+}
+body, html {
+	height: 100%;
+    line-height: 1.8;
+    color:#414042;
+}
+.w3-bar .w3-button {
+	padding: 16px;
+}
+.w3-tag-propio{
+	color: #fff;
+	padding-left: 0px;
+	padding-right: 15px;
+	text-align: center;
+}
+img.logo-header{
+    margin-left: 50px; 
+    margin-top: 25px;  
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 50px;
+}
+.menu{
+    margin-left: 690px;
+    margin-top: -60px;
+}
+.colorText{
+    color: #24ce58;
+}
+.head{
+    background-color: #24ce58;
+}
+.text{
+    color: #fff;
+}
+.bien{
+    font-size: 35px;
+}
+.parr{
+    margin-top: -41px; 
+}
+.seccion1{
+    padding-bottom: 3px;
+    padding-top: 30px;
+}
+.seccion {
+    padding-top: 1px;
+    padding-bottom: 16px;
+}
+.somos{
+    margin-top: -20px;
+}
+.somos1{
+    margin-top: 5px;
+}
+.header{
+    margin-top: -55px;
+    margin-left: 80px;
+}
+.side{
+    overflow: auto; 
+    z-index: 1;
+    width: 21%;
+    height: 1160px;
+}
+.separo{
+    width: 185px;
+}
+.separo1{
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%,100);
+    height: 14vh;
+    width: 1px;
+    margin-left: 207px;
+    margin-top: -87px;       
+}
+.foot{
+    background-color: #414042;
+}
+.menu1{
+    margin-left: 764px;
+    margin-top: -5px;
+}
+img.logo-headerFooter{
+    margin-left: -10px; 
+    margin-top: 25px;  
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 50px;
+}
+.sus2{
+    margin-left: 945px;
+    margin-top: -39px;
+}
+button.boton-home3{
+    background-color: #414042;
+	color: white;
+    font-size: 1.3em;
+    border: 1px solid #fff;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -35px;
+}
+button.boton-home1 {
+    background-color: white;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+button.boton-home2 {
+	background-color: #24ce58;
+	color: white;
+    font-size: 1.6em;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 380px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;    
+  }
+.imgMeteoro{
+    width: 180px;
+    height: 99px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+.imgMeteoro1{
+    width: 180px;
+    height: 99px;
+}
+.imgMetp{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.imgMet{
+    margin-top: -40px;
+    margin-left: 565px;
+}
+.borde{
+	border-top: 30px solid #414042;
+}
+.conte{
+    width: 920px;
+    margin-left: 360px;
+    margin-top: -1095px;
+    padding-bottom: 41px;
+}
+.info{
+    margin-left: 255px;
+    margin-top: -118px;
+}
+.link{
+    text-decoration: none;
+}
+.link1{
+    margin-top: -27px;
+    margin-left: 364px;
+}
+.cuentas{
+    width: 208px;
+    margin-top: 37px;
+    text-align: center;
+}
+.cuentas1{
+    width: 208px;
+    margin-top: -41px;
+    text-align: center;
+    margin-left: 227px;
+    height: 30px;
+}
+.cuentas2{
+    width: 208px;
+    margin-top: -41px;
+    text-align: center;
+    margin-left: 455px;
+    height: 30px;
+}
+.div1{
+    padding-bottom: 12px;
+}
+.subdiv{
+    margin-top: -10px;
+}
+.contactos{
+    margin-top: 1px;
+    padding-top: 50px;
+    padding-left: 83px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.iconos{
+    margin-top: -121px; 
+}
+.d1{
+    margin-left: 190px;
+}
+.d2{
+    margin-left: 380px;
+}
+.d3{
+    margin-left: 570px;
+}
+.fac{
+    margin-top: -51px;
+    margin-left: -83px;
+}
+.venta{
+	margin-left:210px;
+	margin-top: -15px;
+}
+.numVenta{
+	margin-top: -150px;
+}
+/******************************************************************************************/
+@media only screen and (min-width: 1366px) {
+    .conte{
+        width: 920px;
+        margin-left: 360px;
+        margin-top: -910px;
+        padding-bottom: 41px;
+    }
+}

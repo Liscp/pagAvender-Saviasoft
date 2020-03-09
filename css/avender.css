@@ -1,0 +1,334 @@
+/*********************** PRELOADER **************************************/
+#loader-wrapper{
+	position: 										fixed;
+	top: 											0;
+	left: 											0;
+	width: 											100%;
+	height: 										100%;
+	z-index: 										100;
+	background-color: 								#fff;
+}
+.loader{
+    margin-left: 550px;
+    margin-top: 200px;
+}
+/**************************** ANIMACION ************************************/
+
+#loader {
+-webkit-animation: giro 10s linear infinite;
+animation: giro 10s linear infinite;
+}
+
+#loader:before {
+-webkit-animation: giro 5s reverse infinite;
+animation: giro 5s linear infinite;
+}
+
+#loader:after {
+-webkit-animation: giro 2s linear infinite;
+animation: giro 2s linear infinite;
+}
+
+@-webkit-keyframes giro {
+    0%{
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100%{
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+@keyframes giro {
+    0%{
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100%{
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+/************************************HTML***************************************************/
+@font-face {
+	font-family: 'Century Gothic', sans-serif;
+	font-display: auto;
+	src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+body, h1, h2, h3, h4, h5, h6,p {
+    font-family: "Century Gothic", sans-serif;
+}
+body, html {
+	height: 100%;
+    line-height: 1.8;
+}
+* {
+    color: #777;
+}
+.log{
+	height: 50px;
+	padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+img.logo-header {
+	margin-left: 50px;
+	-webkit-animation: logo-mov 4s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+	-webkit-animation-delay: 8s; /* Safari 4.0 - 8.0 */
+	animation: logo-mov 4s;
+	animation-iteration-count: 1;
+	animation-delay: 8s;
+}
+img.logo-headerFooter{
+    margin-left: -10px; 
+    margin-top: 25px;  
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 50px;
+}
+.vid{
+    width: 1300px;
+    height: 582px;
+}
+.mySlides {
+    display: none
+}
+.side{
+	display: none; 
+	padding-top: 10px;
+}
+.aside{
+	letter-spacing: 12px; 
+	font-size: 0.9em; 
+	color: #999; 
+	font-weight: bold;
+}
+.recolor {
+    display: inline-block;
+    position: relative;
+    background: #4d9a3f;
+    opacity: 3.6;
+}
+.recolor img {
+    display: block;
+    mix-blend-mode: lighten;
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+.seccion {
+    padding: 71px 16px;
+    padding-bottom: 20px;
+}
+.seccion1 {
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+.bgimg-1{
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    margin-top: 55px;
+}
+
+.w3-bar .w3-button {
+	padding: 16px;
+}
+.w3-bar .w3-button {
+	padding: 16px;
+}
+.w3-tag-propio{
+	color: #fff;
+	padding-left: 0px;
+	padding-right: 15px;
+	text-align: center;
+}
+.w3-xlarge {
+    font-size: 14px!important;
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+.w3-badge {
+    height:13px;
+    width:13px;
+    padding:0
+}
+.colorText{
+    color: #24ce58;
+}
+.text{
+    font-family: 'Ubuntu', sans-serif;
+}
+.textsus{
+    font-family: 'Comfortaa', cursive;
+}
+button.boton-home1 {
+	background-color: white;
+	color: #24ce58;
+    font-size: 1.3em;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+button.boton-home2 {
+	background-color: #24ce58;
+	color: white;
+    font-size: 1.6em;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 1px;
+    padding-top: 3px;
+}
+button.boton-home3{
+    background-color: #414042;
+	color: white;
+    font-size: 1.3em;
+    border: 1px solid #fff;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -35px;
+}
+.icono{
+    width: 40px;
+    height: 30px;
+    margin-top: -10px;
+}
+.pad{
+    padding-top: 60px;
+    padding-bottom: 27px;
+}
+.cont{
+	margin-left: 200.2px;
+    margin-top: -15.2px;
+}
+
+.foot{
+    background-color: #414042;
+}
+.sus2{
+    margin-left: 1070px;
+    margin-top: -39px;
+}
+.menu1{
+    margin-top: -5px;
+    margin-right: 45px;
+}
+
+.pln1{
+    margin-left: 225px;
+}
+.planes{
+    margin:0 -16px
+}
+/**********************************************************************************/
+@media only screen and (max-width: 1023px) {
+    .side{
+		display: none; 
+		padding-top: 10px;
+		width: 200px;
+    }
+    .cont{
+        margin-left: 0.2px;
+        margin-top: -15.2px;
+    }
+    .pln{
+        margin-left: 40px;
+        margin-top: -50px;
+    }
+    .pln1{
+        margin-left: -2px;
+        margin-top: 3px;
+    }
+    .sus2 {
+        margin-left: 90px;
+        margin-top: 55px;
+    }
+    #menuFooter{
+        display: none;
+    }
+    .planes{
+        margin: 0px 65px;
+    }
+    /*********************** PRELOADER **************************************/
+    #loader-wrapper{
+        position: 										fixed;
+        top: 											0;
+        left: 											0;
+        width: 											100%;
+        height: 										100%;
+        z-index: 										100;
+        background-color: 								#fff;
+    }
+    .loader{
+        margin-left: 110px;
+        margin-top: 235px;
+    }
+    /**************************** ANIMACION ************************************/
+    #loader {
+        -webkit-animation: giro 10s linear infinite;
+        animation: giro 10s linear infinite;
+    }
+    #loader:before {
+        -webkit-animation: giro 5s reverse infinite;
+        animation: giro 5s linear infinite;
+    }
+    
+    #loader:after {
+        -webkit-animation: giro 2s linear infinite;
+        animation: giro 2s linear infinite;
+    }
+    
+    @-webkit-keyframes giro {
+        0%{
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100%{
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    
+    @keyframes giro {
+        0%{
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100%{
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+}
